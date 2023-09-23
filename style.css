@@ -1,3 +1,14 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+span {
+  margin: 0;
+  padding: 0;
+}
 html,
 body {
   margin: 0;
@@ -41,4 +52,95 @@ body {
 }
 .screen-main-header__column:last-child i {
   margin: 50px 30px 0 0;
+}
+.screen-main-left__singer img {
+  margin-top: 1.5rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.screen-main-left__singer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-singer__column:nth-child(2) {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+h2 {
+  font-size: 26px;
+  margin: 0.5rem 0;
+}
+.left-singer__column:nth-child(2) span,
+.left-singer__column:nth-child(3) span:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.left-singer__column:nth-child(3) {
+  margin: 0.75rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left-singer__column:nth-child(3) span {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5rem;
+  padding: 0.7rem 2rem;
+  border-radius: 30px;
+  opacity: 0.8;
+}
+.left-singer__column:nth-child(3) span:first-child {
+  background-color: black;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+.left-singer__column:nth-child(3) span:last-child {
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  border: none;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+}
+.left-singer__column:nth-child(3) span:last-child i {
+  color: black;
+  margin: 0 0.5rem;
+}
+.screen-main-left__list {
+  margin-top: 0.75rem;
+  padding: 0 1.5rem;
+}
+.left-list__column img {
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+.left-list__column {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 20px;
+}
+.song-info {
+  width: 100%;
+  margin-left: 1rem;
+}
+.song-info span {
+  display: block;
+  margin: 0.25rem 0;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+.left-list__column:nth-child(2) {
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
 }
