@@ -83,8 +83,7 @@ h2 {
 }
 .left-singer__column:nth-child(2) span,
 .left-singer__column:nth-child(3) span:last-child,
-.right-singer__column:nth-child(2) span,
-.right-singer__column:nth-child(3) span:last-child {
+.right-singer__column:nth-child(2) span {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 500;
 }
@@ -201,4 +200,28 @@ h2 {
   accent-color: black;
   outline: none;
   box-shadow: 0px 0px 0px 0px;
+}
+.song-time {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+.right-song__button {
+  width: 80%;
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+}
+.fa-circle-play {
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: -1px 1px 6px 0px;
+}
+.fa-repeat,
+.fa-shuffle {
+  opacity: 0.3;
 }
